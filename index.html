@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    ></meta>
+
+    <title>fcc-project-1</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    ></link>
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+
+    <div id="outer">
+        <form id="survey-form">
+            <p id="description">
+                Let us know how we can improve Tech Karo
+            </p>
+
+            <div class="column">
+                <div class="labels">
+                    <label
+                        id="name-label"
+                        for="name"
+                    >Name:</label>
+                </div>
+
+                <div class="inputs">
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        class="input-field"
+                        placeholder="Enter your Name"
+                        required="required"
+                    ></input>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label
+                        id="email-label"
+                        for="email"
+                    >Email:</label>
+                </div>
+
+                <div class="inputs">
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="input-field"
+                        placeholder="Enter your Email"
+                        required="required"
+                    ></input>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label
+                        id="number-label"
+                        for="age"
+                    >Age:</label>
+                </div>
+
+                <div class="inputs">
+                    <input
+                        type="number"
+                        name="age"
+                        id="number"
+                        min="14"
+                        max="45"
+                        class="input-field"
+                        placeholder="Age"
+                        required="required"
+                    ></input>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label for="post">
+                        Which option best describes your current role?
+                    </label>
+                </div>
+
+                <div class="inputs">
+                    <select
+                        id="dropdown"
+                        name="post"
+                    >
+                        <option value="0">Select an option:</option>
+
+                        <option value="1">Student</option>
+
+                        <option value="2">Full time job</option>
+
+                        <option value="3">Half time job</option>
+
+                        <option value="4">Full time free</option>
+
+                        <option value="5">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label for="radio">
+                        Will you share about Tech Karo to your friends?
+                    </label>
+                </div>
+
+                <div class="inputs">
+                    <ul>
+                        <li>
+                            <label>
+                                Yes
+
+                                <input
+                                    type="radio"
+                                    name="radio-btn"
+                                    value="1"
+                                    class="radio"
+                                ></input>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                No
+
+                                <input
+                                    type="radio"
+                                    name="radio-btn"
+                                    value="2"
+                                    class="radio"
+                                ></input>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                May be
+
+                                <input
+                                    type="radio"
+                                    name="radio-btn"
+                                    value="3"
+                                    class="radio"
+                                ></input>
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                Not sure
+
+                                <input
+                                    type="radio"
+                                    name="radio-btn"
+                                    value="4"
+                                    class="radio"
+                                ></input>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label for="selection">What do you like most in TK?</label>
+                </div>
+
+                <div class="inputs">
+                    <select
+                        id="dropdown"
+                        name="selection"
+                    >
+                        <option value="0">Select an option:</option>
+
+                        <option value="1">Teaching way</option>
+
+                        <option value="2">Classes</option>
+
+                        <option value="3">Environment</option>
+
+                        <option value="4">Projects</option>
+
+                        <option value="5">Tests</option>
+
+                        <option value="6">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="labels">
+                    <label for="checkbox">
+                        Things that should be improved in the future:
+                    </label>
+                </div>
+
+                <div class="inputs">
+                    <ul>
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="1"
+                                    value="test"
+                                ></input>
+
+                                Test pattern
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="2"
+                                    value="projects"
+                                ></input>
+
+                                Projects
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="3"
+                                    value="videos"
+                                ></input>
+
+                                Videos
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="4"
+                                    value="react"
+                                ></input>
+
+                                React
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="2"
+                                    value="wordpress"
+                                ></input>
+
+                                WordPress
+                            </label>
+                        </li>
+
+                        <li>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    name="3"
+                                    value="life-skills"
+                                ></input>
+
+                                life-Skills classes
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="labels">
+                    <label for="comments">Any Comments or Suggestions?</label>
+                </div>
+
+                <div class="inputs">
+                    <textarea
+                        rows="4"
+                        cols="50"
+                        id="comment"
+                        form="usrform"
+                    >Enter text here...</textarea>
+                </div>
+            </div>
+            <button id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

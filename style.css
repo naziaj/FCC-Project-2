@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-color: wheat;
+  font-size: 18px;
+}
+#survey-form{
+   max-width:900px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid  rgba(184, 179, 179, 0.836);
+}
+.column{
+    display: block;
+    padding: 10px;
+}
+.labels{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding-right: 15px;
+    vertical-align: top;
+    margin-top: 15px;
+    ;
+}
+.inputs{
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    
+}
+input, #dropdown{
+    padding: 5px 12px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.radio{
+    float: left;
+}
+#submit{
+    background-color: skyblue;
+    border-radius: 3px ;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+}
